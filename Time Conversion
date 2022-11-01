@@ -16,7 +16,7 @@ char* timeConversion(char* s) {
     int hr = atoi(strtok(s,":"));
     int min = atoi(strtok(NULL,":"));
     int sec = atoi(strtok(NULL,""));
-    printf("%d",sec);
+    // printf("%d",sec);
     char ampm[1];
     ampm[0] = s[8];
     if(strcmp(ampm,"A")==0 && hr==12)
